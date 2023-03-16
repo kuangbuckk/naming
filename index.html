@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            body{
+                max-height: 5vh;
+            }
+
+            #container{
+                margin: auto auto;
+                width: 12em;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                flex-wrap: wrap;
+            }
+
+            .render{
+                display: none;
+            }
+            
+            .render img{
+                width: 10rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <form action="">
+                <label for="number">Enter yo name cuhz:</label>
+                <input type="text" name="username" id="username">
+                <br><br>
+                
+                <!-- <button value="Submit" onclick="getUserInput()">Submit value</button> -->
+                <input type="button" id="btn1" value="Submit">
+            </form>
+            <h1  class="render">Your name is: <br>Goofy ahh <span id="result"></span> the Monkey</h1>
+            <img class="render" src="./images/335741759_662684838948777_1095087466419213576_n.png" alt="" >
+        </div>
+    </body>
+    <script src="./main.js"></script>
+</html>
